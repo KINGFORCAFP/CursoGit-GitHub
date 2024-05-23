@@ -80,3 +80,6 @@ git remote -v
 
 -- para bajar cambios de la rama remota sin mezclarlos con el codigo local se utiliza el comando:
 git fetch origin master
+
+-- para forzar un push lo cual no es recomandable realizar pues esto borraria commits en el repositorio remoto:
+git push --force origin master
