@@ -77,3 +77,6 @@ git tag -d nombre_del_tag
 
 -- comando para saber que repositorios remotos tenemos en local:
 git remote -v
+
+-- para bajar cambios de la rama remota sin mezclarlos con el codigo local se utiliza el comando:
+git fetch origin master
