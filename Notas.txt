@@ -83,3 +83,5 @@ git fetch origin master
 
 -- para forzar un push lo cual no es recomandable realizar pues esto borraria commits en el repositorio remoto:
 git push --force origin master
+
+-- para comparar commits se utiliza el comando: git show codigo_commit 
