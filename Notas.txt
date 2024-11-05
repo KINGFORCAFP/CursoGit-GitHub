@@ -84,4 +84,18 @@ git fetch origin master
 -- para forzar un push lo cual no es recomandable realizar pues esto borraria commits en el repositorio remoto:
 git push --force origin master
 
--- para comparar commits se utiliza el comando: git show codigo_commit 
+-- para comparar commits se utiliza el comando: git show d8c52497ec0d36635a5f3b1e790c18ac73dbb0ea
+
+-- git diff se utiliza para comparar multiples commits el comando se realiza de la siguiente manera:
+git diff d8c52497ec0d36635a5f3b1e790c18ac73dbb0ea 8def85b59018ba0db50ee89a767ec9cb77077a27
+
+-- comando para ver logs de manera corta y en orden:
+git shortlog
+
+-- si se le añade las banderillas --summary --numbered mostrara los commits que ha realizado cada usuario:
+git shortlog --summary --numbered
+
+-- el siguiente comando muestra el ultimo commit con un tag
+git describe
+
+-- comando cherry pick lo que hace es aplicar los cambios introducidos en un commit, coger un commit de una rama y aplicarlo en otra rama:
