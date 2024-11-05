@@ -116,3 +116,7 @@ git blame -L 3,6 nombre_archivo --> se utiliza para ver solamente el rango de li
 git grep -n palabra --> encuentra la palabra que se le pase y el numero de linea donde esta esa palabra
 git grep -c palabra --> solo indica en pantalla la cantidad de palabras que hay en un archivo con esa palabra indicada
 git grep palabra hash --> encuentra la palabra indicada en un commit especifico
+
+-- comando git ignore sirve para ignorar o no tener en cuenta ciertos archivos del proyecto:
+
+git ignore
