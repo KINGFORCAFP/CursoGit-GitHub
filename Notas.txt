@@ -98,4 +98,10 @@ git shortlog --summary --numbered
 -- el siguiente comando muestra el ultimo commit con un tag
 git describe
 
--- comando cherry pick lo que hace es aplicar los cambios introducidos en un commit, coger un commit de una rama y aplicarlo en otra rama:
+-- comando cherry-pick lo que hace es aplicar los cambios introducidos en un commit, coger un commit de una rama y aplicarlo en otra rama se debe pasar el hash del commit que queremos pasar:
+
+git cherry-pick a517d2248d624b8caa8ae181bc4b933707e75f4e
+
+-- comando git rebase lo que hace es cambiar la base de una rama, es recomendable NO utilizarlo en ramas con commit que ya se han publicado en un repositorio puesto que remplazaria toda la historia de los commits, este comando se aplica estando en la rama donde se desea hacer el rebase
+
+git rebase master
