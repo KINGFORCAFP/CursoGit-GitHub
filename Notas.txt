@@ -105,3 +105,14 @@ git cherry-pick a517d2248d624b8caa8ae181bc4b933707e75f4e
 -- comando git rebase lo que hace es cambiar la base de una rama, es recomendable NO utilizarlo en ramas con commit que ya se han publicado en un repositorio puesto que remplazaria toda la historia de los commits, este comando se aplica estando en la rama donde se desea hacer el rebase
 
 git rebase master
+
+-- comando git blame se utiliza para revisar quien realizo modificaciones sobre un archivo:
+
+git blame nombre_archivo
+git blame -L 3,6 nombre_archivo --> se utiliza para ver solamente el rango de lineas especificadas con la banderrilla -L
+
+-- comando git grep sirve para buscar un texto dentro de archivos de un proyecto:
+
+git grep -n palabra --> encuentra la palabra que se le pase y el numero de linea donde esta esa palabra
+git grep -c palabra --> solo indica en pantalla la cantidad de palabras que hay en un archivo con esa palabra indicada
+git grep palabra hash --> encuentra la palabra indicada en un commit especifico
