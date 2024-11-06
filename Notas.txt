@@ -9,7 +9,7 @@ git log
 -- Agregar repositorio a local:
 git remote add origin git@github.com:KINGFORCAFP/CursoGit-GitHub.git
 
--- Ver si el repositorio se creo correctamente:
+-- comando para saber que repositorios remotos tenemos en local:
 git remote -v
 
 -- clave ssh SHA256:KV0Fb0j6A0T/nA+GmLt45JaPI7iWtjQm8oeiI/g5YvE
@@ -74,9 +74,6 @@ git show nombre_del_tag
 
 -- para eliminar una etiqueta se utiliza el siguiente comando:
 git tag -d nombre_del_tag
-
--- comando para saber que repositorios remotos tenemos en local:
-git remote -v
 
 -- para bajar cambios de la rama remota sin mezclarlos con el codigo local se utiliza el comando:
 git fetch origin master
