@@ -120,3 +120,5 @@ git grep palabra hash --> encuentra la palabra indicada en un commit especifico
 -- comando git ignore sirve para ignorar o no tener en cuenta ciertos archivos del proyecto:
 
 git ignore
+
+-- 
