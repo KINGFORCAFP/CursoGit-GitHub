@@ -118,4 +118,9 @@ git grep palabra hash --> encuentra la palabra indicada en un commit especifico
 
 git ignore
 
--- 
+-- git alias se utiliza para crear propios comandos por ejemplo el "git reset HEAD archivo.txt" es bastante largo para lo cual podemos crear uno nuevo con el nombre que queramos de la siguiente manera:
+
+git config --global alias.unstage 'reset HEAD' --> con este comando se crea el alias
+
+git unstage archivo --> este comando lo que hace es devolver el primer stage
+
